@@ -61,7 +61,7 @@ body{
     grid-template-columns: minmax(200px, 70vw);
     align-self: start;
 }
-.friends{
+.friends-container{
     grid-row: 3;
     grid-column: 3;
     background-color: #3498db;
@@ -70,6 +70,7 @@ body{
     border-top-left-radius: 4px;
     box-shadow: -1px -1px 3px black;
     padding-left: 1vmax;
+    align-content: center;
 }
 
 ul{
